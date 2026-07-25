@@ -1,0 +1,32 @@
+generated: '2026-07-20'
+method: searched
+source: https://createra.fun/
+host: https://createra.fun
+host_reachable: false
+host_note: >-
+  createra.fun resolves in DNS (A 152.69.222.7, Cloudflare nameservers) but no
+  service answers on port 80 or 443, so every /.well-known probe failed to connect
+  (curl exit 7, status 000). No discovery documents could be harvested. This is a
+  recorded absence, not a fabricated result.
+documents:
+- path: /.well-known/security.txt
+  status: 000
+  result: connection-failed
+- path: /.well-known/openid-configuration
+  status: 000
+  result: connection-failed
+- path: /.well-known/oauth-authorization-server
+  status: 000
+  result: connection-failed
+- path: /.well-known/api-catalog
+  status: 000
+  result: connection-failed
+- path: /.well-known/ai-plugin.json
+  status: 000
+  result: connection-failed
+- path: /llms.txt
+  status: 000
+  result: connection-failed
+- path: /openapi.json
+  status: 000
+  result: connection-failed

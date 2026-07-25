@@ -1,0 +1,40 @@
+# Createra
+
+> Createra is a user-generated-content (UGC) gaming metaverse platform backed by
+> Andreessen Horowitz, built by the Code Infinity team associated with the
+> youth-coding company Codemao. Creators build and publish 3D worlds and games in
+> the browser via its Box3 creation platform. As of a 2026-07-20 probe the company
+> has no reachable website and no public API surface; this file records what the
+> API Evangelist network was able to verify.
+
+## Status
+
+- Company status: dormant. createra.fun resolves in DNS (A 152.69.222.7) but no
+  service answers on port 80 or 443.
+- No developer portal, documentation, API reference, OpenAPI/AsyncAPI definition,
+  MCP server, or /.well-known discovery surface could be located.
+- No vulnerability-disclosure program, trust center, status page, or changelog
+  could be located.
+
+## Packages
+
+- [@box3/web-sdk](https://www.npmjs.com/package/@box3/web-sdk): first-party
+  JavaScript SDK, "An sdk for using createra applications", published by Code
+  Infinity. Latest 1.2.0, last published 2023-01-11, unmaintained.
+
+## Company
+
+- [Website (unreachable)](https://createra.fun/)
+- [LinkedIn](https://www.linkedin.com/company/createra/)
+- [X / Twitter](https://twitter.com/CreatEra_)
+- [Facebook (Codemao team)](https://www.facebook.com/Codemaoteam/)
+- [a16z portfolio](https://a16z.com/portfolio/)
+
+## Artifacts in this repo
+
+- [packages/createra-packages.yml](packages/createra-packages.yml): registry sweep
+  across npm, PyPI, Maven Central, NuGet, pkg.go.dev, RubyGems, Packagist, crates.io.
+- [well-known/createra-well-known.yml](well-known/createra-well-known.yml): recorded
+  /.well-known probe results (all connection-failed).
+- [security/createra-domain-security.yml](security/createra-domain-security.yml):
+  DNS/TLS posture — DNSSEC enabled, no CAA, no SPF, no DMARC, no HTTPS listener.

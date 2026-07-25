@@ -1,0 +1,46 @@
+generated: '2026-07-20'
+method: searched
+source: https://registry.npmjs.org/@box3/web-sdk
+notes: >-
+  Registry sweep of npm, PyPI, Maven Central, NuGet, pkg.go.dev, RubyGems, Packagist
+  and crates.io for Createra / Box3 client libraries. Only one first-party package
+  was found. The package description ("An sdk for using createra applications")
+  and publisher ("Code Infinity", the team behind Createra) establish it as
+  first-party. It has not been republished since 2023-01-11 and is consistent with
+  the dormant status recorded in apis.yml.
+packages:
+- language: javascript
+  registry: npm
+  name: '@box3/web-sdk'
+  url: https://www.npmjs.com/package/@box3/web-sdk
+  install: npm install @box3/web-sdk
+  official: true
+  version: 1.2.0
+  versions_published: 3
+  first_published: '2022-11-23'
+  last_published: '2023-01-11'
+  author: Code Infinity
+  license: UNLICENSED
+  description: An sdk for using createra applications.
+  repository: null
+  homepage: null
+  status: unmaintained
+registries_checked:
+- registry: npm
+  result: found
+  query: createra
+- registry: pypi
+  result: none
+  query: createra
+- registry: maven-central
+  result: none
+- registry: nuget
+  result: none
+- registry: pkg.go.dev
+  result: none
+- registry: rubygems
+  result: none
+- registry: packagist
+  result: none
+- registry: crates.io
+  result: none

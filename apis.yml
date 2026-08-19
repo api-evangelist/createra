@@ -33,7 +33,7 @@ x-tier-reason: portfolio-lead
 x-status: dormant
 x-status-evidence: 'createra.fun resolves (A 152.69.222.7) but returns no HTTP or HTTPS
   response; probed 2026-07-20'
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-20'
 tags:

@@ -11,6 +11,17 @@ description: 'Createra is a user-generated-content (UGC) gaming metaverse platfo
   could be located, and the npm SDK has not been republished since January 2023 —
   this profile therefore records Createra as a dormant company with no active public
   API surface.'
+deliveryModel:
+  model: library
+  open_source: false
+  commercial: false
+  callable_host: false
+  label: Library · distributed through package registries, no callable service
+  confidence: low
+  source:
+  - none
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
